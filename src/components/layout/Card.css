@@ -1,0 +1,22 @@
+.Card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  flex-grow: 1;
+  width: 14%;
+}
+
+.Card .Title {
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 1px solid red;
+  padding: 10px 0;
+  background-color: red;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.Card .Content {
+  text-align: center;
+}
