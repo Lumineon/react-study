@@ -13,6 +13,7 @@ import ProductsList from './components/loops/ProductsList';
 import EvenOdd from './components/conditionals/EvenOdd';
 import User from './components/conditionals/User';
 import Direct from './components/comunication/Direct';
+import Indirect from './components/comunication/Indirect';
 
 import Card from './components/layout/Card';
 
@@ -69,7 +70,7 @@ export default () => (
       </Card>
 
       <Card title="Card #11" color="#2ab7ca">
-        <Direct />
+        <Indirect />
       </Card>
 
       <Card title="Card #12" color="#f37735">
